@@ -1,0 +1,47 @@
+body{
+    background-image: url('../images/stark_bg.jpg');
+    background-color: bisque;
+    background-size: cover;
+    background-attachment: fixed;
+    color: red;
+}
+
+.character, .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.button {
+    font: bold 14px Arial;
+    text-decoration: none;
+    background-color: silver;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    width: 80px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .flex-info{
+    display: flex;
+    gap: 50px;
+  }
+
+  .character{
+    color: #89c4ff;
+  }
+
+  .character h1{
+    color: yellow;
+    padding-bottom: 20px;
+  }
+
+  .srchChar{
+    color: whitesmoke;
+  }
